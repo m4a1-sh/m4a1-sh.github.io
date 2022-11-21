@@ -38,7 +38,7 @@ body {
     font-weight: 400;
 }
 
-.music-container {
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
