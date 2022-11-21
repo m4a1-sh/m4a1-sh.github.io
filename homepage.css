@@ -3,10 +3,11 @@
     --Light-gray: hsl(212, 45%, 89%);
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
+    --Yellow: rgb(238, 200, 75);
 }
 
 body {
-    background-color: var(--Light-gray);
+    background-color: var(--Yellow);
     font-family: 'Outfit', sans-serif;
 }
 
