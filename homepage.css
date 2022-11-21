@@ -17,9 +17,9 @@ body {
     box-sizing: border-box;
     position: fixed;
     border-radius: 20px;
-    width: 250px;
+    width: 275px;
     padding: 15px;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
