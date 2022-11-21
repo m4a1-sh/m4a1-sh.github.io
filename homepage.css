@@ -4,10 +4,12 @@
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
     --Yellow: rgb(255, 234, 166);
+    --Black: rgb(0,0,0);
+
 }
 
 body {
-    background-color: var(--Yellow);
+    background-color: var(--Black);
     font-family: 'Outfit', sans-serif;
 }
 
@@ -15,7 +17,7 @@ body {
     box-sizing: border-box;
     position: fixed;
     border-radius: 20px;
-    width: 275px;
+    width: 500px;
     padding: 15px;
     top: 50%;
     left: 50%;
@@ -30,6 +32,7 @@ body {
 }
 .info-container h3 {
     color: var(--Dark-blue);
+    font-size: xx-large;
     font-weight: 700;
 }
 .info-container p{
@@ -39,6 +42,12 @@ body {
 }
 
 .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gay-container {
     display: flex;
     justify-content: center;
     align-items: center;
