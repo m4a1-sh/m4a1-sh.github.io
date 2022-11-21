@@ -36,3 +36,21 @@ body {
     color: var(--Grayish-blue);
     font-weight: 400;
 }
+
+.link-container {
+    box-sizing: border-box;
+    position: fixed;
+    border-radius: 20px;
+    width: 275px;
+    height: fit-content;
+    top: 70%;
+    left: 50%;
+    padding: 15px;
+    background-color: var(--White);
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.link-container-feature{
+    z-index: 10;
+}
