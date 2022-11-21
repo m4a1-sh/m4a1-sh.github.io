@@ -47,8 +47,6 @@ body {
     align-items: center;
 }
 
-.gay-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.gay-container img{
+    width: 75%;
 }
